@@ -1,0 +1,84 @@
+body {
+    font-family: segoe ui, sans-serif;
+     margin: 0;
+}
+section.header1 {
+    background: cadetblue;
+}
+.vario a{
+    font-size: 13px;
+    text-decoration: none;
+    color: red;
+}
+.vario a:hover{
+    font-size: 13px;
+/*    text-decoration: none;
+*/    color: red;
+}
+.col-8 {
+/*  overflow: auto; */
+	height: 40vh;
+    width: 97%;
+/*	border-right: solid cyan; 
+*/}
+.greeting {
+    position: absolute;
+    float: left;
+    width: 616px;
+    height: 240px;
+    text-align: center;
+    text-transform: uppercase;
+    color: yellowgreen;
+    font-size: 25px;
+    text-shadow: 3px 2px 3px;
+    padding: 27px;
+    transform: scale(1.1) rotate( 
+45deg
+ );
+    font-family: Rosewood Std Regular;
+    font-size: 57px;
+    margin-top: 158px;
+    margin-left: 651px;
+}
+.scrollspy-example {
+    border-left: solid blue;
+}
+.bd-callout {
+    text-align: -webkit-center;
+    margin-top: 25px;
+    justify-content: center;
+}
+h4#list-item-1,#list-item-2,#list-item-3,#list-item-4 {
+    background-color: blue;
+    width: 22%;
+}
+div#list-example a {
+    background: darkseagreen;
+}
+.pub {
+    width: 57%;
+    justify-content: center;
+    margin-top: 38px;
+    border-left: red;
+    background: cyan;
+}
+.bd-callout-danger.pub {
+    border: solid 1px #555;
+    width: 23%;
+    height: 67vh;
+    border-radius: 27px;
+    background-color: aqua;
+    margin-left: 55px;
+    margin-top: -38px;
+}
+.bd-example {
+    width: 95%;
+    margin-left: 27px;
+}
+a.list-group-item.list-group-item-action:hover {
+    background: orange;
+}
+.bd-callout-danger.pub:hover {
+    background: yellow;
+    box-shadow: 1px 3px 1px #5667;
+}
